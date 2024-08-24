@@ -2,7 +2,7 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local Data = LocalPlayer:FindFirstChild("Data")
 local Beli = Data:FindFirstChild("Beli")
-local checkInterval = 600
+local checkInterval = 300
 local lastBeliValue = Beli.Value
 
 local function hopServer()
